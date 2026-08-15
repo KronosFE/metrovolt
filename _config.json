@@ -1,0 +1,36 @@
+{
+  "route": "metrovolt",
+  "title": "MetroVolt — Firm Power for Data Centers & Cities",
+  "short": "MetroVolt",
+  "kicker": "METROVOLT · THE BURNER",
+  "headline": "Firm power where the load is.",
+  "tagline": "MetroVolt is the Kronos burner sited for data centers and cities — a D-3He tandem-mirror generator with direct energy conversion that needs almost no water. Design stage; perfected while the breeder is built.",
+  "hero_clip": "burner-hero-tandem-mirror.mp4",
+  "cats": {
+    "the-machine": [
+      "The Machine",
+      "The same burner core, in the MetroVolt housing."
+    ],
+    "data-center-power": [
+      "Data-Center Power",
+      "Firm 24/7 power for AI compute, co-located with the load."
+    ],
+    "the-water-story": [
+      "The Water Story",
+      "No steam cycle, so almost no water — answering the data-center water crisis."
+    ],
+    "grid-and-cities": [
+      "Grid & Cities",
+      "Dispatchable, baseload, grid-firming, and urban siting."
+    ],
+    "direct-energy-conversion": [
+      "Direct Energy Conversion",
+      "Turning charged particles straight into electricity."
+    ],
+    "readiness-timeline": [
+      "Readiness & Timeline",
+      "Design stage now; the path to a commercial fleet."
+    ]
+  },
+  "hero_blueprint": "burner"
+}

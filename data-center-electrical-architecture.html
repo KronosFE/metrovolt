@@ -76,7 +76,7 @@ table.tt td{padding:5px 16px 5px 0;border-bottom:1px solid var(--line);color:#cd
 @media(max-width:820px){.layout{grid-template-columns:1fr}.side{display:none}}
 </style>
 <link rel="icon" href="https://kronosfusionenergy.com/favicon.svg"><link rel="apple-touch-icon" href="https://kronosfusionenergy.com/favicon.svg"><meta name="theme-color" content="#0a0e17"><meta property="og:site_name" content="Kronos Fusion Energy"><meta property="og:type" content="website"><meta property="og:title" content="Data-Center Electrical Architecture · Kronos Fusion Energy"><meta property="og:description" content="From generation to the accelerator, power passes through a chain of buses, transformers, transfers, and UPS; the burner enters that chain as the firm base source."><meta property="og:url" content="https://kronosfusionenergy.com/metrovolt/data-center-electrical-architecture.html"><meta property="og:image" content="https://www.kronosfusionenergy.com/__l5e/assets-v1/9153ca3a-2184-47d8-a388-f5f14558ab5b/kronos_preview_1200x630.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://www.kronosfusionenergy.com/__l5e/assets-v1/9153ca3a-2184-47d8-a388-f5f14558ab5b/kronos_preview_1200x630.png">
-</head><body><!-- ══════════════════════════════════════════════════════════════════════════
+<link rel="preconnect" href="https://pub-6f4141e515994eaf98b678a16ccbf603.r2.dev" crossorigin><style>.kfe-skip{position:absolute;left:-9999px}.kfe-skip:focus{position:fixed;left:10px;top:10px;z-index:99999;background:#D4AD5C;color:#141a22;padding:9px 15px;border-radius:4px;font-family:sans-serif;font-size:14px}</style></head><body><a href="#kfe-main" class="kfe-skip">Skip to content</a><!-- ══════════════════════════════════════════════════════════════════════════
      KRONOS FUSION ENERGY — GLOBAL HEADER + FOOTER (self-contained embed)
      Paste this entire block into the <body> of any static page.
      • all CSS inline in one <style> block (only external ref: Google Fonts link)
@@ -359,7 +359,7 @@ table.tt td{padding:5px 16px 5px 0;border-bottom:1px solid var(--line);color:#cd
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
     </button>
   </div>
-</header>
+</header><span id="kfe-main" tabindex="-1"></span>
 
 <!-- ── MOBILE MENU ─────────────────────────────────────────────────────── -->
 <div class="kfe-mobile" id="kfe-mobile">
@@ -413,7 +413,7 @@ table.tt td{padding:5px 16px 5px 0;border-bottom:1px solid var(--line);color:#cd
 <p>The burner enters at the top as a firm base member alongside the <a href=./utility-interconnection.html>utility feed</a>. Below it, the <a href=./failover-and-transfer.html>transfer</a> and <a href=./battery-storage-pairing.html>UPS</a> layers make source selection invisible to the racks: when the burner is servicing or has tripped, the transfer picks the grid, and the UPS bridges the switch. This is the machinery that converts the burner's <a href=./the-availability-gate.html>0.86-0.995</a> into a campus that presents Tier III to the compute.</p>
 <p>Because the chain already exists in every data center, adding the burner does not require reinventing the electrical architecture. It substitutes a firm, low-water source for the fossil-generator layer while keeping the transfer, UPS, and distribution stages that data-center engineers already trust.</p>
 <p>Designing this chain well — sizing transfers for the burner's step changes, ensuring UPS holds through the slowest transfer, avoiding shared points that create common-mode failure — is what realizes the <a href=./availability-math-nines.html>combined availability</a> that the hybrid promises on paper.</p>
-<ul><li>Power flows through generation, MV bus, transformers, transfer, UPS, racks</li><li>Burner enters as firm base beside the utility feed</li><li>Transfer + UPS make source changes invisible to racks</li><li>Reuses the electrical architecture data centers already trust</li></ul><div class="related"><h3>Related</h3><a href="./medium-voltage-integration.html">Medium-Voltage Integration &rarr;</a><a href="./failover-and-transfer.html">Failover And Transfer &rarr;</a><a href="./dc-power-distribution.html">DC Power Distribution &rarr;</a></div></main></div><div class="kfe-embed">
+<ul><li>Power flows through generation, MV bus, transformers, transfer, UPS, racks</li><li>Burner enters as firm base beside the utility feed</li><li>Transfer + UPS make source changes invisible to racks</li><li>Reuses the electrical architecture data centers already trust</li></ul><div class="related"><h3>Related</h3><a href="./medium-voltage-integration.html">Medium-Voltage Integration &rarr;</a><a href="./failover-and-transfer.html">Failover And Transfer &rarr;</a><a href="./dc-power-distribution.html">DC Power Distribution &rarr;</a></div></main></div><div class="kfe-embed"><div style="text-align:center;color:#8FA0B8;font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.05em;padding:14px 0 2px;opacity:.75">Content reviewed August 2026 &middot; design-and-simulation stage</div>
 
 <!-- ── FOOTER ──────────────────────────────────────────────────────────── -->
 <footer class="kfe-footer">
