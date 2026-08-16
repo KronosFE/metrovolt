@@ -417,7 +417,7 @@ print(round(availability(2000, 100), 4))  # 0.9524  frequent, slow repair
 print(round(availability(8000, 40),  4))  # 0.9950  matured
 # Tier III (0.99982) needs, e.g. one 8h outage per ~44,000 h:
 print(round(availability(44000, 8), 5))   # 0.99982</code></pre>
-<figure class="clip"><video autoplay muted loop playsinline preload="none" aria-label="Kronos motion — burner power flow"><source data-src="https://pub-6f4141e515994eaf98b678a16ccbf603.r2.dev/aa9-burner-power-flow.mp4" type="video/mp4"></video><figcaption>Kronos motion — burner power flow</figcaption></figure>
+
 <p>The arithmetic makes the <a href=./the-availability-gate.html>availability gate</a> concrete. To reach the burner's modelled high end of 0.995 alone, a unit must run thousands of hours between faults and repair in tens of hours. To reach Tier III's 0.99982 as a single machine would require tens of thousands of hours between failures with same-day repair — a maturity no first-of-a-kind fusion device can claim.</p>
 <p>This is why the honest path to Tier III is redundancy rather than a heroic single-unit MTBF. It is also why the program builds the <a href=./honest-roadmap-to-dc-power.html>breeder first</a> and treats the burner as a design study through ~2032: MTBF and MTTR only improve with operating hours, and there are none yet.</p>
 <p>The design levers are clear: raise MTBF by de-rating the hardest-run components and adding condition monitoring, lower MTTR with modular replacement and staged spares, and cover the residual with the hybrid.</p>

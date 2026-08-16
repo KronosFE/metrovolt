@@ -429,7 +429,7 @@ def plant_meets_load(n_needed, n_units, a_unit, a_grid):
     return ok
 
 print(round(plant_meets_load(2, 4, 0.95, 0.999), 5))  # &gt;&gt; 0.95</code></pre>
-<figure class="clip"><video autoplay muted loop playsinline preload="none" aria-label="Kronos motion — burner power flow"><source data-src="https://pub-6f4141e515994eaf98b678a16ccbf603.r2.dev/aa9-burner-power-flow.mp4" type="video/mp4"></video><figcaption>Kronos motion — burner power flow</figcaption></figure>
+
 <p>The model is illustrative, not a specification, but it makes the point: a plant sized with spare units and backed by an independent <a href=./utility-interconnection.html>grid</a> reaches a combined availability well above any single unit's. This is exactly the <a href=./availability-math-nines.html>nines arithmetic</a> applied to a real fleet, and it is how the <a href=./the-availability-gate.html>availability gate</a> is answered in practice rather than in words.</p>
 <p>The honest caveats carry over. Real members are not perfectly independent — a shared bus, common controls, or a regional grid event can correlate outages — so the true aggregate is below the idealized number, and the design must minimize those common-mode paths. Fuel is another shared dependency: all units draw <a href=./the-he3-supply-gate-for-dc.html>helium-3</a>, so a fuel shortfall is a correlated risk the electrical redundancy cannot fix.</p>
 <p>Aggregation is therefore powerful but not automatic: it delivers Tier III only when the members are genuinely independent and the shared dependencies — bus, controls, fuel — are managed as first-class risks.</p>

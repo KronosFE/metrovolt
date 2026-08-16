@@ -422,7 +422,7 @@ def combined(*avails):
 print(round(combined(burner, battery, grid), 6))  # -&gt; 0.999999995 (ideal, independent)
 # Real numbers are lower: outages are not fully independent,
 # and switching/transfer adds its own failure modes.</code></pre>
-<figure class="clip"><video autoplay muted loop playsinline preload="none" aria-label="Kronos motion — burner power flow"><source data-src="https://pub-6f4141e515994eaf98b678a16ccbf603.r2.dev/aa9-burner-power-flow.mp4" type="video/mp4"></video><figcaption>Kronos motion — burner power flow</figcaption></figure>
+
 <p>The code shows the principle and its trap. In the idealized independent case, even a 0.995 burner plus a battery and a grid tie clears Tier III comfortably. In reality the layers are not perfectly independent — a regional grid event, a shared switchgear fault, or a transfer-switch failure can take more than one layer at once — so the true combined number is lower than the naive product.</p>
 <p>This is why the <a href=./the-availability-gate.html>availability gate</a> is stated as a floor to design against, not a number to explain away. The burner's 0.86-0.995 is the input; Tier III is the target output; the engineering is in choosing enough independent layers, and reducing common-mode failures, so the real combined availability reaches 0.99982.</p>
 <p>The honest reading: the math permits Tier III from an imperfect burner, but only with genuine independence between layers and careful attention to the switching that ties them together.</p>
