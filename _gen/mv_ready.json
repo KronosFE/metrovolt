@@ -308,7 +308,7 @@
    ],
    [
     "p",
-    "The breeder’s product is material: a tritium-class output near 4 kg/yr, a helium-3 coproduct near 1.97 kg/yr, and 14 MeV neutrons. Delivering those needs fusion gain (Q_sci 3.424, 88.7 MW fusion power) — not net electricity. The burner’s product is electricity, which requires net electric output: gross power minus everything recirculated to magnets, heating, and cryogenics must stay positive. That is the harder threshold."
+    "The breeder’s product is material: a tritium-class output near 4 kg/yr, a helium-3 coproduct near 1.97 kg/yr, and 14 MeV neutrons. Delivering those needs fusion gain (Q_sci 3.076, 85.0 MW fusion power) — not net electricity. The burner’s product is electricity, which requires net electric output: gross power minus everything recirculated to magnets, heating, and cryogenics must stay positive. That is the harder threshold."
    ],
    [
     "html",
@@ -2791,7 +2791,7 @@
    ],
    [
     "p",
-    "The breeder delivers value on fusion gain alone (Q_sci 3.424, 88.7 MW fusion power) and de-risks shared magnets, cryogenics, controls, and helium-3 supply. The burner then attempts the harder net-electric goal on proven foundations."
+    "The breeder delivers value on fusion gain alone (Q_sci 3.076, 85.0 MW fusion power) and de-risks shared magnets, cryogenics, controls, and helium-3 supply. The burner then attempts the harder net-electric goal on proven foundations."
    ],
    [
     "html",
